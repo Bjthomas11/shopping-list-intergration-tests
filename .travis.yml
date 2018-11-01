@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: McZXb3gqEVpwXeYY3Jb/WpT3Re6wovvKBbxCvq9rRCwLIoHd3lvIuHwl97BXxkW+b3+734FXA8RYo0OrDj6w+MVln0AGhB7ACqWLYajZZZ8vfps4NzyxbIGvzDy3co+alAsVHG7+hLj9Lx2qO0JzoNyd7iwMc+jrDLl7HOpImnhPo0NuDkzBomM6a36xSPzvE7rN0KOP18DezDZPwtL2cH61p5s0hTcfvzTD+DAdaKTDEfRqzRX7/fHQw+qt5OQSluXwzXArH6X6M2gfECBibZ/XGINtKoHvY+WPGS5DTi0+vqnMphFwy7p1BceNCGVVlP2NGB6vR9DaQS1uMlalbwpC839qXZdbNahg5SJLNpzIjE7VjkyMJ6ulykXaiRxbCLdr70eywMhGr805KcmGrZ9+6CGdQ3AfND9XmtBaiyXae8AzxjNuI9tMwBLVDfUeHqiQti+U2/BTX4Crf12J8yrk8YVESMUMj7CqUpTZ8cbBk/7uwI23+X43AkpVYSYEP5lMw5AyPj2Z5p+GcOzMe/QaVLeKLM8+EZVqqpB60bNaw4BoGvvjPD7dOgc6W+i7d5aTyOTkYW36GFpjzwwASiWORi6QsFhPf9UfSEI7q0B2glEvUlI9vPgO3KubkzwXSijVO2u1QFpwxuBU38hFf7ILKClboknF6qqzeZFESSU=
+  app: git diff
+  on:
+    repo: Bjthomas11/shopping-list-intergration-tests
